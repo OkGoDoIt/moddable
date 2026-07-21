@@ -48,6 +48,9 @@ typedef struct {
 	// pebble-battery
 	void					*battery;
 
+	// pebble-music
+	void					*music;
+
 	// timer
 	void					*timers;
 	EventedTimerID		eventedTimer;
