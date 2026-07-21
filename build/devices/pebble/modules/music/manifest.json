@@ -1,0 +1,11 @@
+{
+	"modules": {
+		"pebble/music": [
+			"./music",
+			"./pebble-music"
+		]
+	},
+	"preload": [
+		"pebble/music"
+	]
+}
