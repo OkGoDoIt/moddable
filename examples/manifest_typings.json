@@ -107,6 +107,7 @@
 				"pebble/dictation": "$(TYPINGS)/pebble/dictation",
 				"pebble/health": "$(TYPINGS)/pebble/health",
 				"pebble/message": "$(TYPINGS)/pebble/message",
+				"pebble/music": "$(TYPINGS)/pebble/music",
 				"pebble/vibes": "$(TYPINGS)/pebble/vibes",
 				"pebble/wakeup": "$(TYPINGS)/pebble/wakeup"
 			},
