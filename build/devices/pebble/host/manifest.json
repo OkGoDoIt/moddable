@@ -20,6 +20,7 @@
 		"$(MODDABLE)/build/devices/pebble/modules/compass/manifest.json",
 		"$(MODDABLE)/build/devices/pebble/modules/location/manifest.json",
 		"$(MODDABLE)/build/devices/pebble/modules/music/manifest.json",
+		"$(MODDABLE)/build/devices/pebble/modules/peek/manifest.json",
 		"$(MODDABLE)/build/devices/pebble/modules/archive-resource/manifest.json",
 		"$(MODDABLE)/build/devices/pebble/modules/httpclient/manifest.json",
 		"$(MODDABLE)/build/devices/pebble/modules/websocketclient/manifest.json",
