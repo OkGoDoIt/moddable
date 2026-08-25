@@ -1,0 +1,11 @@
+{
+	"modules": {
+		"pebble/peek": [
+			"./peek",
+			"./pebble-peek"
+		]
+	},
+	"preload": [
+		"pebble/peek"
+	]
+}
