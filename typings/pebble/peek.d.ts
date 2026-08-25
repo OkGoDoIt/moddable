@@ -21,7 +21,10 @@
 type PeekWidgetResult = "success" | "invalidArgs" | "disabled";
 
 interface PeekWidgetOptions {
-  /** Icon shown in the widget's icon box: a publishedMedia id, or 0 for a generic icon. */
+  /**
+   * Icon shown in the widget's icon box: a publishedMedia id. Omit it to use the app's
+   * own icon.
+   */
   icon?: number;
   /** The widget's title. Required. Truncated at 32 bytes of UTF-8. */
   title: string;
