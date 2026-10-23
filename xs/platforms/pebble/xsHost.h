@@ -48,7 +48,6 @@
 #include "applib/pbl_std/pbl_std.h"
 #include <pbl/drivers/rtc.h>
 #include "syscall/syscall.h"
-#include "system/passert.h"
 #include <time.h>
 #include "kernel/pbl_malloc.h"
 
@@ -250,7 +249,7 @@ struct pbl_timeval {
 	 uint32_t	tv_usec;    /* microseconds */	
 };
 
-#define c_tm struct tm
+#define c_tm struct pbl_tm
 #define c_timeval struct pbl_timeval
 #define c_time_t time_t
 #define c_timezone timezone
